@@ -1,0 +1,37 @@
+table {
+    margin: 0 auto;
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 1px solid lightgrey;
+}
+
+tbody tr:nth-child(odd),
+tfoot tr {
+    background-color: lightgrey;
+}
+
+th,
+td {
+    padding-left: 1rem;
+}
+
+thead th:nth-child(1) {
+    width: 50%;
+}
+
+thead th:nth-child(2) {
+    width: 35%;
+}
+
+thead th:nth-child(3) {
+    width: 15%;
+}
+
+td:nth-child(3) {
+    text-align: end;
+}
